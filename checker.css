@@ -1,0 +1,54 @@
+body{
+  background-color: rgba(0, 255, 255, 0.336);
+}
+
+.errormessage{
+  color: red;
+  font-weight: bold;
+}
+
+.container{
+  width: "parent";
+  margin: 20px;
+  background-color: white;  
+}
+
+.circlecut{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-right:1px solid #ddd;
+}
+
+.circlecut canvas{
+  width: 978px;
+  height: 411px;
+}
+
+.auto-checklist{
+  padding: 10px;
+}
+
+.mode-button{
+  padding: 10px;
+  margin:5px;
+  margin-bottom: 15px;
+  width:200px;
+  height: 80px;
+  font-size:large;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 3pt 3pt 3pt #858585A0;
+  transition:all 0.15s;
+}
+
+.mode-button:hover{
+  box-shadow: 0pt 0pt 0pt;
+}
+
+.mode-button.active{
+  transform:translateY(3pt);
+  box-shadow: 0pt 0pt 0pt;
+  filter:brightness(90%);
+}
