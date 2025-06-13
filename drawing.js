@@ -972,6 +972,6 @@ async function versionCheck(ctx){
     height:h,
     width:w
   }});
-  const version=result.data.text.replace(" ", "").replace("\n", "");
+  const version=result.data.text.replace(" ", "").replace("\n", "").toLowerCase();
   return version;
 }
