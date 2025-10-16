@@ -12,17 +12,18 @@
   <b class="mode-display" id="mode-display"></b>
   <div id="mode-select" style="margin-top: 20px; margin-bottom:20px;">
     <b style="font-size: 25px;">☆ 開催回選択<br></b>
-    <button data-mode="kk16" data-name="けもケット16" class="mode-button active">けもケット16</button>
+    <button data-mode="skk12" data-name="新春けもケット12" class="mode-button active">新春けもケット12</button>
+    <button data-mode="kk16" data-name="けもケット16" class="mode-button">けもケット16</button>
     <button data-mode="kkk10" data-name="関西けもケット10" class="mode-button">関西けもケット10</button>
-    <button data-mode="skk11" data-name="新春けもケット11" class="mode-button">新春けもケット11</button>   
+    <button data-mode="skk11" data-name="新春けもケット11" class="mode-button">新春けもケット11</button>    
   </div>
   <div style="margin:20px; border: dashed white; padding:10px; background-color: rgba(240, 248, 255, 0.719);">
     けもケットのサークルカットをアップロードすると、不備を検出するWebツールです。<br>
     ただし、全ての不備を網羅しているわけではありません。あくまで参考程度にし、最終的にはご自身でチェックをしてください。<br>
-    不備検出の仕様についてはGithubの<a href="https://github.com/sea-umino/kemoket_circlecut_checker/blob/main/README.md">README.md</a>を参照してください。<br><br>
+    不備検出の仕様についてはGithubの<a href="https://github.com/anago-pie/kemoket_circlecut_checker/blob/main/README.md">README.md</a>を参照してください。<br><br>
     
     <b>【使い方】</b><br>
-    1. URL(" https://sea-umino.github.io/kemoket_circlecut_checker/ ")にアクセスする<br>
+    1. URL(" https://anago-pie.github.io/kemoket_circlecut_checker/ ")にアクセスする<br>
     2. 最初にデータのロードが始まるので、完了するまで待機する（公式で配布されているテンプレートの解析済みデータを読み込んでいます。ここが終わる前に解析を開始すると、開催回の判定にエラーが起きて処理が止まります）<br>
     3. ロードが完了したらサークルカット（カタログ掲載部分と、右側の短冊がくっついた状態のもの。申し込み時にアップするものそのまま）をアップロードしてください（解析はブラウザ上でのみ行われます。アップした画像がどこかに送信されたり保存されたりはしません）<br>
     4. ちょっと待つと解析が完了します。不備が検出されると赤文字で[ERROR]から始まる警告文が表示されます。[ERROR]が表示されず、サークルカットの下部分の項目が全て緑色になれば不備は検出されていないことになります。<br>
